@@ -1,15 +1,16 @@
-# AI Based Travel Planner Using Langchain and Langgraph
+# End-To-End Agentic AI | AI Based Travel Planner with LLMOPS
 
 ### UV related command 
-    - To check which uv version is avalibale on the system
-        - ```uv --version```
-    - To download the uv software using pip command for windows
-        - ```pip install uv```
-    - To intialize a folder inside the uv 
-        - ```uv init folder_name``` 
+- To check which uv version is avalibale on the system
+    -  ```uv --version```
+- To download the uv software using pip command for windows
+    - ```pip install uv```
+- To intialize a folder inside the uv 
+    - ```uv init folder_name``` 
 
 ### By default env will get activated using conda however for this project we are using uv so we deactive this env
 ```conda activate base```
+
 ```conda deactivate```
 
 ### To check the python version avaliable 
