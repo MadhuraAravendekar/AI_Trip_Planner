@@ -6,7 +6,7 @@ import os
 
 app = FastAPI() 
 
-
+# Defining the type of query as string
 class QueryRequest(BaseModel):
     query: str
 
@@ -18,6 +18,7 @@ async def query_travel_agent(query:QueryRequest):
         graph = GraphBuilder(model_provider="groq")
         react_app = graph() 
 
+        # Saving the graph as a image
         png_graph = react_app.get_graph().draw_mermaid_png()
         with open("my_graph.png", "wb") as f:
             f.write(png_graph)
