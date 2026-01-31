@@ -30,3 +30,11 @@
 
 ### To get all the command list we have typed in the terminal 
 ```doskey/history```
+
+## How to activate your server which is the streamlit.
+
+### To start the server 
+```streamlit run streamlit_app.py```
+
+### To execute all the api into the new terminal
+```uviorn main:app --reload --port 8000```
