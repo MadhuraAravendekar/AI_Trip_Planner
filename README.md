@@ -37,4 +37,4 @@
 ```streamlit run streamlit_app.py```
 
 ### To execute all the api into the new terminal
-```uviorn main:app --reload --port 8000```
+```uvicorn main:app --reload --port 8000```
