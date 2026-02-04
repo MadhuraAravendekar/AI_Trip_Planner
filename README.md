@@ -1,4 +1,4 @@
-# 📘 GitHub README – *AI-Based Trip Planner Bot*
+# 📘*AI-Based Trip Planner Bot*
 
 ## AI-Based Trip Planner Bot 🌍✈️
 
